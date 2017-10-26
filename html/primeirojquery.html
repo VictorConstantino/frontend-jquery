@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<title>Uso so JQuery</title>
+
+	<script type="text/javascript" src="../js/jquery.js"></script>
+
+
+	<script type="text/javascript">
+	/*Para usar a biblioteca de JQuery, é necessario usar um carater especial para fazer a chamada:($) ou JQuery
+	*/
+	$(document).ready(function(){
+
+		$('#principal').append('<p>Texto Novo</p>');
+		$('#primeiro').click(function(){
+			$('div').append('<h2>Estou aqui!</h2>');
+		});
+
+	});
+		
+
+
+	</script>
+	
+
+
+
+</head>
+<body>
+<header>
+	
+	<h1>Página com JQuery</h1>
+
+</header>
+	
+	<main>
+		
+		<section id="principal">
+			<div>
+				<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque delectus nam nemo, dolores, molestiae animi facere cupiditate. Ad ipsum expedita odio accusamus, placeat, mollitia qui, ea provident autem eos, nostrum!</div>
+				<div>Deleniti explicabo mollitia aliquid molestias fuga, ea asperiores possimus, eaque omnis beatae rem quo sequi eligendi itaque eos quae. Voluptates laborum sint aliquam ipsam, beatae odio quidem praesentium, porro labore?</div>
+				<div>Modi facilis voluptates quaerat omnis cum! Facere consequuntur quo officia, officiis blanditiis obcaecati quaerat sapiente ad veniam nemo accusamus modi, nostrum sint exercitationem excepturi dolores, beatae minima non delectus consectetur!</div>
+			</div>
+			<div>
+				<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea, magni, officiis sunt aspernatur animi iste nisi hic est nobis dicta, sed. Laboriosam atque tenetur mollitia ea est quos aliquam voluptatem.</div>
+				<div>Aspernatur fugit hic labore veniam quos aut suscipit deleniti in quis earum voluptatibus, laudantium neque vitae reprehenderit amet facilis dolorem libero ad cum pariatur dicta omnis minima. Aliquid, totam, dolor.</div>
+				<div>Illum nisi porro velit, mollitia vero, dicta natus eum, esse a temporibus consequatur consectetur dolorum quae facere dolorem, tenetur minima expedita libero impedit molestias eaque itaque quisquam. Aperiam dolorem, quas.</div>
+			</div>
+		</section>
+	</main>
+</body>
+</html>
